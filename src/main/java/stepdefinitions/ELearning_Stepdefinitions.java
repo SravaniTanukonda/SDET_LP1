@@ -4,6 +4,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+import common.wrapper;
 import test.TestRunner;
 
 import cucumber.api.java.en.And;
@@ -21,10 +22,12 @@ public class ELearning_Stepdefinitions extends TestRunner{
 	}
     @Then("^I enter the username \"([^\"]*)\"$")
 	public void i_enter_the_username(String username) throws Throwable {
-		driver.findElement(By.xpath("//input[@id='login']")).sendKeys(username);
+		//driver.findElement(By.xpath("//input[@id='login']")).sendKeys(wrapper.getDataFromExcel(1,0));
+    	driver.findElement(By.xpath("//input[@id='login']")).sendKeys(username);
 	}
 	@And("^I enter the password \"([^\"]*)\"$")
 		public void i_enter_the_password(String password) throws Throwable {
+		//driver.findElement(By.xpath("//input[@id='password']")).sendKeys(wrapper.getDataFromExcel(1,1));
 		driver.findElement(By.xpath("//input[@id='password']")).sendKeys(password);
 		}
     @Then("^I click the login button$")
@@ -52,7 +55,8 @@ public class ELearning_Stepdefinitions extends TestRunner{
 	}
    @Then("^I enter the Name \"([^\"]*)\"$")
 	public void I_enter_the_Name(String Name) throws Throwable {
-	driver.findElement(By.xpath("//input[@id='career_name']")).sendKeys(Name);
+	//driver.findElement(By.xpath("//input[@id='career_name']")).sendKeys(wrapper.getDataFromExcel(1,2));
+	   driver.findElement(By.xpath("//input[@id='career_name']")).sendKeys(Name); 
 	Thread.sleep(7000);
     }
    @When("^I click on Add Button$")
@@ -62,7 +66,7 @@ public class ELearning_Stepdefinitions extends TestRunner{
 	}
    @Then("^Display ITEM Added Message$")
 	public void Display_ITEM_Added_Message() throws Throwable {
-	String Message = 	driver.findElement(By.xpath("//div[contains(text(),'Item added')]")).getText();
+	String Message = driver.findElement(By.xpath("//div[contains(text(),'Item added')]")).getText();
 	System.out.println(Message);
 	}
 
@@ -83,6 +87,7 @@ public class ELearning_Stepdefinitions extends TestRunner{
 	}
    @Then("^I enter the name \"([^\"]*)\"$")
 	public void i_enter_the_name(String name) throws Throwable {
+	//driver.findElement(By.xpath("//input[@id='name']")).sendKeys(wrapper.getDataFromExcel(1,3));
 	driver.findElement(By.xpath("//input[@id='name']")).sendKeys(name);
 	Thread.sleep(3000);
    }
@@ -93,7 +98,7 @@ public class ELearning_Stepdefinitions extends TestRunner{
   	}
    @Then("^Display ITEM Added Message1$")
 	public void Display_ITEM_Added_Message1() throws Throwable {
-	String Message1 = 	driver.findElement(By.xpath("//div[contains(text(),'Item added')]")).getText();
+	String Message1 = driver.findElement(By.xpath("//div[contains(text(),'Item added')]")).getText();
 	System.out.println(Message1);
 	}
    @When("^I click on Subscribe sessions to promotion icon$")
@@ -104,6 +109,7 @@ public class ELearning_Stepdefinitions extends TestRunner{
    @Then("^select session in Sessions not subscribed$")
   	public void select_session_in_Sessions_not_subscribed() throws Throwable {
 	   driver.findElement(By.xpath("//select[@name='firstLetterUser']//option[@value='D']")).click();
+	   driver.findElement(By.xpath("//option[contains(text(),'Dheeraj11')]")).click();
    Thread.sleep(4000);
    }
    @When("^I click on arrow$")

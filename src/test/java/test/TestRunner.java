@@ -17,7 +17,7 @@ import cucumber.api.junit.Cucumber;
 import cucumber.api.testng.CucumberFeatureWrapper;
 import cucumber.api.testng.TestNGCucumberRunner;
 	@RunWith(Cucumber.class)
-	@CucumberOptions(features="feature_files", glue= "stepdefinitions",
+	@CucumberOptions(features="feature_files", glue= "stepdefinitions", //tags= "@ESC!20",
 	format=
 	{"pretty",
 	"html:target/cucumber-reports/cucumber-pretty",
@@ -49,4 +49,5 @@ import cucumber.api.testng.TestNGCucumberRunner;
 	    public void tearDownClass() throws Exception {
 	        report.endTest(test); 
 	    
-}}
+}
+}

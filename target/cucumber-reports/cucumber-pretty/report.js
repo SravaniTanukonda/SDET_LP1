@@ -61,7 +61,7 @@ formatter.match({
   "location": "ELearning_Stepdefinitions.i_open_the_browser_and_enter_the_url(String)"
 });
 formatter.result({
-  "duration": 15051684200,
+  "duration": 16901997200,
   "status": "passed"
 });
 formatter.match({
@@ -74,7 +74,7 @@ formatter.match({
   "location": "ELearning_Stepdefinitions.i_enter_the_username(String)"
 });
 formatter.result({
-  "duration": 748526100,
+  "duration": 278199100,
   "status": "passed"
 });
 formatter.match({
@@ -87,21 +87,21 @@ formatter.match({
   "location": "ELearning_Stepdefinitions.i_enter_the_password(String)"
 });
 formatter.result({
-  "duration": 420759500,
+  "duration": 721388000,
   "status": "passed"
 });
 formatter.match({
   "location": "ELearning_Stepdefinitions.i_click_the_calcualte_button()"
 });
 formatter.result({
-  "duration": 13303185800,
+  "duration": 8600155800,
   "status": "passed"
 });
 formatter.match({
   "location": "ELearning_Stepdefinitions.i_click_the_Administratortab()"
 });
 formatter.result({
-  "duration": 1300350600,
+  "duration": 2983444600,
   "status": "passed"
 });
 formatter.scenario({
@@ -152,21 +152,21 @@ formatter.match({
   "location": "ELearning_Stepdefinitions.i_click_the_CareesAndPromotionsLink()"
 });
 formatter.result({
-  "duration": 7617844900,
+  "duration": 7875673700,
   "status": "passed"
 });
 formatter.match({
   "location": "ELearning_Stepdefinitions.I_click_the_career_link()"
 });
 formatter.result({
-  "duration": 3814926200,
+  "duration": 2528017200,
   "status": "passed"
 });
 formatter.match({
   "location": "ELearning_Stepdefinitions.I_click_on_AddIcon()"
 });
 formatter.result({
-  "duration": 3079217400,
+  "duration": 4074662600,
   "status": "passed"
 });
 formatter.match({
@@ -179,21 +179,21 @@ formatter.match({
   "location": "ELearning_Stepdefinitions.I_enter_the_Name(String)"
 });
 formatter.result({
-  "duration": 7267527000,
+  "duration": 7269560200,
   "status": "passed"
 });
 formatter.match({
   "location": "ELearning_Stepdefinitions.I_click_on_Add_Button()"
 });
 formatter.result({
-  "duration": 5497192700,
+  "duration": 6038555800,
   "status": "passed"
 });
 formatter.match({
   "location": "ELearning_Stepdefinitions.Display_ITEM_Added_Message()"
 });
 formatter.result({
-  "duration": 160210600,
+  "duration": 59770500,
   "status": "passed"
 });
 formatter.scenario({
@@ -244,21 +244,21 @@ formatter.match({
   "location": "ELearning_Stepdefinitions.i_click_the_CareesAndPromotionsLink()"
 });
 formatter.result({
-  "duration": 6202201900,
+  "duration": 5355215500,
   "status": "passed"
 });
 formatter.match({
   "location": "ELearning_Stepdefinitions.I_click_on_Promotions_Link()"
 });
 formatter.result({
-  "duration": 6315750000,
+  "duration": 5499715200,
   "status": "passed"
 });
 formatter.match({
   "location": "ELearning_Stepdefinitions.I_click_the_ADDIcon()"
 });
 formatter.result({
-  "duration": 4560041500,
+  "duration": 4692258100,
   "status": "passed"
 });
 formatter.match({
@@ -271,21 +271,21 @@ formatter.match({
   "location": "ELearning_Stepdefinitions.i_enter_the_name(String)"
 });
 formatter.result({
-  "duration": 3315452600,
+  "duration": 3317200800,
   "status": "passed"
 });
 formatter.match({
   "location": "ELearning_Stepdefinitions.i_click_the_ADD_Button()"
 });
 formatter.result({
-  "duration": 4780586900,
+  "duration": 4938897400,
   "status": "passed"
 });
 formatter.match({
   "location": "ELearning_Stepdefinitions.Display_ITEM_Added_Message1()"
 });
 formatter.result({
-  "duration": 91271100,
+  "duration": 86432300,
   "status": "passed"
 });
 formatter.scenario({
@@ -326,28 +326,28 @@ formatter.match({
   "location": "ELearning_Stepdefinitions.I_click_on_Subscribe_sessions_to_promotion_icon()"
 });
 formatter.result({
-  "duration": 5219581700,
+  "duration": 6207378200,
   "status": "passed"
 });
 formatter.match({
   "location": "ELearning_Stepdefinitions.select_session_in_Sessions_not_subscribed()"
 });
 formatter.result({
-  "duration": 4284071100,
+  "duration": 4269787200,
   "status": "passed"
 });
 formatter.match({
   "location": "ELearning_Stepdefinitions.I_click_on_arrow()"
 });
 formatter.result({
-  "duration": 5114556500,
+  "duration": 5196702200,
   "status": "passed"
 });
 formatter.match({
   "location": "ELearning_Stepdefinitions.I_click_on_subscribe_sessions_in_promotion_window_button()"
 });
 formatter.result({
-  "duration": 1823757000,
+  "duration": 1776189400,
   "status": "passed"
 });
 });
