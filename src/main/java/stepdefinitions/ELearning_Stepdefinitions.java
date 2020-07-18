@@ -22,13 +22,13 @@ public class ELearning_Stepdefinitions extends TestRunner{
 	}
     @Then("^I enter the username \"([^\"]*)\"$")
 	public void i_enter_the_username(String username) throws Throwable {
-		//driver.findElement(By.xpath("//input[@id='login']")).sendKeys(wrapper.getDataFromExcel(1,0));
-    	driver.findElement(By.xpath("//input[@id='login']")).sendKeys(username);
+		driver.findElement(By.xpath("//input[@id='login']")).sendKeys(wrapper.getDataFromExcel(1,0));
+    	//driver.findElement(By.xpath("//input[@id='login']")).sendKeys(username);
 	}
 	@And("^I enter the password \"([^\"]*)\"$")
 		public void i_enter_the_password(String password) throws Throwable {
-		//driver.findElement(By.xpath("//input[@id='password']")).sendKeys(wrapper.getDataFromExcel(1,1));
-		driver.findElement(By.xpath("//input[@id='password']")).sendKeys(password);
+		driver.findElement(By.xpath("//input[@id='password']")).sendKeys(wrapper.getDataFromExcel(1,1));
+		//driver.findElement(By.xpath("//input[@id='password']")).sendKeys(password);
 		}
     @Then("^I click the login button$")
 	public void i_click_the_calcualte_button() throws Throwable {
@@ -55,8 +55,8 @@ public class ELearning_Stepdefinitions extends TestRunner{
 	}
    @Then("^I enter the Name \"([^\"]*)\"$")
 	public void I_enter_the_Name(String Name) throws Throwable {
-	//driver.findElement(By.xpath("//input[@id='career_name']")).sendKeys(wrapper.getDataFromExcel(1,2));
-	   driver.findElement(By.xpath("//input[@id='career_name']")).sendKeys(Name); 
+	driver.findElement(By.xpath("//input[@id='career_name']")).sendKeys(wrapper.getDataFromExcel(1,2));
+	   //driver.findElement(By.xpath("//input[@id='career_name']")).sendKeys(Name); 
 	Thread.sleep(7000);
     }
    @When("^I click on Add Button$")
@@ -86,9 +86,9 @@ public class ELearning_Stepdefinitions extends TestRunner{
 		Thread.sleep(3000);
 	}
    @Then("^I enter the name \"([^\"]*)\"$")
-	public void i_enter_the_name(String name) throws Throwable {
-	//driver.findElement(By.xpath("//input[@id='name']")).sendKeys(wrapper.getDataFromExcel(1,3));
-	driver.findElement(By.xpath("//input[@id='name']")).sendKeys(name);
+	public void I_enter_the_name(String name) throws Throwable {
+	driver.findElement(By.xpath("//input[@id='name']")).sendKeys(wrapper.getDataFromExcel(1,3));
+	//driver.findElement(By.xpath("//input[@id='name']")).sendKeys(name);
 	Thread.sleep(3000);
    }
    @When("^I click on ADD Button$")
